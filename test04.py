@@ -27,8 +27,8 @@ dog1 = dog2
 dog1.name = '해피'
 
 # 두개의 변수가 연결된 주소?
-print( id(dog1))
-print( id(dog2))     # => 둘 다 같은 주소로 간다.
+print( hex(id(dog1)) )    # hex ( 숫자 )  => 16진수로 변환해줌 : 메모리 주소를 컴퓨터가 다루는 양식으로 확인할 때 
+print( hex(id(dog2)) )     # => 둘 다 같은 주소로 간다.
 
 dog1.print_dog_info()
 dog2.print_dog_info()
