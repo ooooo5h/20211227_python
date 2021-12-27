@@ -27,3 +27,17 @@ print_main_info()
 # 메쏘드 호출 예시
 # 특징 : 변수이름"."메쏘드() 형태로 사용함
 dog1.print_dog_info()
+
+# dog2를 비워두자
+dog2 = None
+print(dog2)     # dog2변수 자체는 살아있는 상태
+
+# del(dog2)       # dog2변수 자체까지 지워버린 상태
+# print(dog2)
+
+num1 = 10
+if num1 == 10:
+    num2 = 20
+    print(num2)
+
+print(num2)   # 파이썬은 if문 밖에서 호출해도 변수 호출이 가능함
