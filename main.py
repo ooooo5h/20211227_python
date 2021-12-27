@@ -2,8 +2,8 @@ from datas.cat import Cat
 from datas.dog import Dog
 from datas.cow import Cow
 from datas.horse import Horse
-from datas.test.test import MyTest
 from datas.test.test_module import test01, test02
+from datas import MyTest
 
 dog1 = Dog('해피', 2016, '푸들')
 
