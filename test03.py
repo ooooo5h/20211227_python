@@ -1,5 +1,6 @@
 from datas import OverloadingTest
 
+
 ot = OverloadingTest()
 
 # 정수 3개는 사용 가능
