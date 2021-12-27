@@ -26,5 +26,9 @@ dog1 = dog2
 # dog1의 이름을 -> '해피'로 변경
 dog1.name = '해피'
 
+# 두개의 변수가 연결된 주소?
+print( id(dog1))
+print( id(dog2))     # => 둘 다 같은 주소로 간다.
+
 dog1.print_dog_info()
 dog2.print_dog_info()
