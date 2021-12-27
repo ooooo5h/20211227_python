@@ -5,3 +5,8 @@ class Dog():
         self.name = name
         self.birth_year = birth_year
         self.type = type
+        
+    # 메쏘드 예시
+    # 메쏘드는 어떤 객체가 수행하는 지(self) 반드시 아는 상태로 코드를 작성해야함
+    def print_dog_info(self):
+        print(f'강아지 이름 : {self.name}')
