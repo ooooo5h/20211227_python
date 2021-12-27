@@ -1,8 +1,8 @@
-from cat import Cat
-from dog import Dog
-from cow import Cow
-from horse import Horse
-
+from datas.cat import Cat
+from datas.dog import Dog
+from datas.cow import Cow
+from datas.horse import Horse
+from datas.test.test import MyTest
 
 dog1 = Dog('해피', 2016, '푸들')
 
